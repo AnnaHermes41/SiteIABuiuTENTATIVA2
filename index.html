@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <!-- Configurações -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flashcards | Tudo Pelo Jogo</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--==========================
+            CABEÇALHO
+    ===========================-->
+
+    <header class="header">
+
+        <div class="logo">
+
+            <img src="img/logo.png" alt="Logo Foxes">
+
+            <div>
+
+                <h1>FOXES</h1>
+
+                <p>Flash Cards • Tudo Pelo Jogo</p>
+
+            </div>
+
+        </div>
+
+        <nav>
+
+            <ul class="menu">
+
+                <li><a href="#inicio">Início</a></li>
+
+                <li><a href="#sobre">Sobre</a></li>
+
+                <li><a href="#flashcards">Flashcards</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!--==========================
+              HERO
+    ===========================-->
+
+    <section class="hero" id="inicio">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <h2>FLASHCARDS</h2>
+
+            <h3>TUDO PELO JOGO</h3>
+
+            <p>
+
+                Descubra se você realmente conhece Neil Josten,
+                Andrew Minyard, Kevin Day e todo o universo dos Foxes.
+
+            </p>
+
+            <a href="#flashcards" class="botao">
+
+                Começar Agora
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!--==========================
+              SOBRE
+    ===========================-->
+
+    <section class="sobre" id="sobre">
+
+        <div class="container">
+
+            <h2>Sobre a Saga</h2>
+
+            <div class="linha"></div>
+
+            <p>
+
+                <strong>Tudo Pelo Jogo</strong> é uma trilogia escrita por
+                Nora Sakavic que acompanha Neil Josten,
+                um jovem fugitivo que encontra nos Foxes uma oportunidade
+                de recomeçar enquanto enfrenta o próprio passado.
+
+            </p>
+
+            <div class="cards-info">
+
+                <div class="info-card">
+
+                    <h3>🏑 Exy</h3>
+
+                    <p>
+
+                        O esporte fictício que mistura elementos de
+                        lacrosse e hóquei e move toda a história.
+
+                    </p>
+
+                </div>
+
+                <div class="info-card">
+
+                    <h3>🦊 Foxes</h3>
+
+                    <p>
+
+                        Um time formado por jogadores considerados
+                        "casos perdidos", mas extremamente talentosos.
+
+                    </p>
+
+                </div>
+
+                <div class="info-card">
+
+                    <h3>🎭 Personagens</h3>
+
+                    <p>
+
+                        Cada personagem possui um passado complexo
+                        que influencia toda a trama.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--==========================
+            FLASHCARDS
+    ===========================-->
+
+    <section class="flashcards" id="flashcards">
+
+        <div class="container">
+
+            <h2>Teste seus conhecimentos</h2>
+
+            <div class="linha"></div>
+
+            <p class="descricao">
+
+                Clique em cada cartão para revelar a resposta.
+
+            </p>
+
+            <div class="cards-grid">
+
+    <!-- CARD 1 -->
+    <div class="card">
+        <input type="checkbox" id="card1">
+        <label for="card1" class="card-inner">
+
+            <div class="card-face card-front">
+                <img src="img/exy.jpg" alt="Exy">
+
+                <div class="card-content">
+                    <h3>O esporte fictício criado pela autora chama-se Exy.</h3>
+                    <span>Clique para revelar</span>
+                </div>
+            </div>
+
+            <div class="card-face card-back">
+                <h2>✅ Verdadeiro</h2>
+
+                <p>
+                    O Exy é um esporte fictício criado especialmente para
+                    o universo de Tudo Pelo Jogo.
+                </p>
+            </div>
+
+        </label>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="card">
+        <input type="checkbox" id="card2">
+        <label for="card2" class="card-inner">
+
+            <div class="card-face card-front">
+                <img src="img/neil.jpg" alt="Neil">
+
+                <div class="card-content">
+                    <h3>Neil Josten é o verdadeiro nome do protagonista.</h3>
+                    <span>Clique para revelar</span>
+                </div>
+            </div>
+
+            <div class="card-face card-back">
+                <h2>❌ Falso</h2>
+
+                <p>
+                    Seu verdadeiro nome é Nathaniel Wesninski.
+                </p>
+            </div>
+
+        </label>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="card">
+        <input type="checkbox" id="card3">
+        <label for="card3" class="card-inner">
+
+            <div class="card-face card-front">
+                <img src="img/foxes.jpg" alt="Foxes">
+
+                <div class="card-content">
+                    <h3>Os Foxes recrutam apenas atletas sem problemas.</h3>
+                    <span>Clique para revelar</span>
+                </div>
+            </div>
+
+            <div class="card-face card-back">
+                <h2>❌ Falso</h2>
+
+                <p>
+                    Wymack procura justamente jovens que precisam de uma
+                    segunda chance.
+                </p>
+            </div>
+
+        </label>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="card">
+        <input type="checkbox" id="card4">
+        <label for="card4" class="card-inner">
+
+            <div class="card-face card-front">
+                <img src="img/andrew.jpg" alt="Andrew">
+
+                <div class="card-content">
+                    <h3>Andrew Minyard é o goleiro dos Foxes.</h3>
+                    <span>Clique para revelar</span>
+                </div>
+            </div>
+
+            <div class="card-face card-back">
+                <h2>✅ Verdadeiro</h2>
+
+                <p>
+                    Andrew protege o gol da equipe e é um dos melhores
+                    goleiros do Exy.
+                </p>
+            </div>
+
+        </label>
+    </div>
+
+    <!-- CARD 5 -->
+    <div class="card">
+        <input type="checkbox" id="card5">
+        <label for="card5" class="card-inner">
+
+            <div class="card-face card-front">
+                <img src="img/kevin.jpg" alt="Kevin">
+
+                <div class="card-content">
+                    <h3>Kevin Day veio dos Ravens após uma lesão.</h3>
+                    <span>Clique para revelar</span>
+                </div>
+            </div>
+
+            <div class="card-face card-back">
+                <h2>✅ Verdadeiro</h2>
+
+                <p>
+                    Depois da lesão em sua mão dominante, Kevin foi para
+                    os Foxes.
+                </p>
+            </div>
+
+        </label>
+    </div>
+
+    <!-- CARD 6 -->
+    <div class="card">
+        <input type="checkbox" id="card6">
+        <label for="card6" class="card-inner">
+
+            <div class="card-face card-front">
+                <img src="img/nathan.jpg" alt="Nathan">
+
+                <div class="card-content">
+                    <h3>O pai de Neil era o Açougueiro de Baltimore.</h3>
+                    <span>Clique para revelar</span>
+                </div>
+            </div>
+
+            <div class="card-face card-back">
+                <h2>✅ Verdadeiro</h2>
+
+                <p>
+                    Nathan Wesninski ficou conhecido por esse apelido no
+                    crime organizado.
+                </p>
+            </div>
+
+        </label>
+    </div>
+
+    <!-- CARD 7 -->
+    <div class="card">
+        <input type="checkbox" id="card7">
+        <label for="card7" class="card-inner">
+
+            <div class="card-face card-front">
+                <img src="img/ravens.jpg" alt="Ravens">
+
+                <div class="card-content">
+                    <h3>Jean Moreau é o capitão dos Ravens.</h3>
+                    <span>Clique para revelar</span>
+                </div>
+            </div>
+
+            <div class="card-face card-back">
+                <h2>❌ Falso</h2>
+
+                <p>
+                    O capitão é Riko Moriyama.
+                </p>
+            </div>
+
+        </label>
+    </div>
+
+    <!-- CARD 8 -->
+    <div class="card">
+        <input type="checkbox" id="card8">
+        <label for="card8" class="card-inner">
+
+            <div class="card-face card-front">
+                <img src="img/wymack.jpg" alt="Wymack">
+
+                <div class="card-content">
+                    <h3>David Wymack fundou e treina os Foxes.</h3>
+                    <span>Clique para revelar</span>
+                </div>
+            </div>
+
+            <div class="card-face card-back">
+                <h2>✅ Verdadeiro</h2>
+
+                <p>
+                    Wymack criou o programa de Exy da Palmetto State.
+                </p>
+            </div>
+
+        </label>
+    </div>
+
+    <!-- CARD 9 -->
+    <div class="card">
+        <input type="checkbox" id="card9">
+        <label for="card9" class="card-inner">
+
+            <div class="card-face card-front">
+                <img src="img/minyard.jpg" alt="Minyard">
+
+                <div class="card-content">
+                    <h3>Aaron é irmão gêmeo idêntico de Andrew.</h3>
+                    <span>Clique para revelar</span>
+                </div>
+            </div>
+
+            <div class="card-face card-back">
+                <h2>✅ Verdadeiro</h2>
+
+                <p>
+                    Apesar das diferenças, Aaron e Andrew são gêmeos idênticos.
+                </p>
+            </div>
+
+        </label>
+    </div>
+
+    <!-- CARD 10 -->
+    <div class="card">
+        <input type="checkbox" id="card10">
+        <label for="card10" class="card-inner">
+
+            <div class="card-face card-front">
+                <img src="img/books.jpg" alt="Livros">
+
+                <div class="card-content">
+                    <h3>O primeiro livro da saga é O Rei Corvo.</h3>
+                    <span>Clique para revelar</span>
+                </div>
+            </div>
+
+            <div class="card-face card-back">
+                <h2>❌ Falso</h2>
+
+                <p>
+                    O primeiro livro é <strong>O Cortiço das Raposas</strong>.
+                </p>
+            </div>
+
+        </label>
+    </div>
+
+</div>
+
+        </div>
+
+    </section>
+
+    <!--==========================
+              RODAPÉ
+    ===========================-->
+
+    <footer>
+
+        <div class="container">
+
+            <h2>FOXES</h2>
+
+            <p>
+
+                Projeto desenvolvido para fãs da saga
+                <strong>Tudo Pelo Jogo</strong>.
+
+            </p>
+
+            <p>
+
+                © 2026 • Desenvolvido por Leo
+
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
